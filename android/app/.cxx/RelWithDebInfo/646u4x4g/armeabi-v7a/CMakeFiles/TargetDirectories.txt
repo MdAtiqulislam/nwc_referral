@@ -1,0 +1,2 @@
+/Users/revinar/AndroidStudioProjects/nwc_referral/android/app/.cxx/RelWithDebInfo/646u4x4g/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/revinar/AndroidStudioProjects/nwc_referral/android/app/.cxx/RelWithDebInfo/646u4x4g/armeabi-v7a/CMakeFiles/rebuild_cache.dir
