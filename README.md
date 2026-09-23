@@ -1,16 +1,46 @@
-# nwc_referral
+# Admission Group (nwc_referral)
 
-A new Flutter project.
+A Flutter referral/lead-management app for an admission group — capture student leads, manage follow-ups and stay in touch.
+
+## Features
+
+- Lead list with add-student flow (`addOrUpdateStudentNew`)
+- Home page with bottom navigation and custom app bar
+- Contact-us and FAQ sections
+- File preview for documents
+- Notifications page
+- Login and edit-profile flows
+
+## Tech Stack
+
+- Flutter (Dart)
+- GetX for state management and routing
+- REST API backend
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+Build a release APK:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter build apk --release
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```
+lib/
+├── app/modules/   # Leads, students, home, contact, FAQ, auth
+├── services/      # API and platform services
+├── theme/         # App theme
+└── main.dart      # App entry point
+```
+
+## Notes
+
+- App label: "Admission Group" (Android)
+- No secrets or keystores are committed to this repository.
