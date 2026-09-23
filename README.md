@@ -2,6 +2,9 @@
 
 A Flutter referral/lead-management app for an admission group — capture student leads, manage follow-ups and stay in touch.
 
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=education.nwc.nwc_referral) [![App Store](https://img.shields.io/badge/App_Store-Download-0D96F2?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/app/id6746379395)
+
+
 ## Features
 
 - Lead list with add-student flow (`addOrUpdateStudentNew`)
